@@ -402,7 +402,12 @@ public class Interface extends javax.swing.JFrame {
                 hargabarang = hargabrg1*total;
             }
 
+            if(hargabarang<-0){
+                totalbarang3.setText("0");
+            }else{
 
+                totalbarang3.setText(""+hargabarang);
+            }
 
         }catch(Exception e){
 
