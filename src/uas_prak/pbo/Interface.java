@@ -390,7 +390,7 @@ public class Interface extends javax.swing.JFrame {
     private void jumlahbarang3CaretUpdate(javax.swing.event.CaretEvent evt) {//GEN-FIRST:event_jumlahbarang3CaretUpdate
         // TODO add your handling code here:
         try{
-            int total =  Integer.parseInt(jumlahbarang3.getText() )  ;
+            
             int hargabrg1 =Integer.parseInt(hargabarang3.getText().replace(".", ""));
             int disc1=(total*hargabrg1)*1/100;
             int hargabarang=0;
@@ -422,8 +422,6 @@ public class Interface extends javax.swing.JFrame {
             int hasil=0;
             hasil = getbayar-sthdisc;
             if(hasil>0){
-                
-                
                 uangakhir.setText(""+hasil);
             }else{
                 uangakhir.setText("0");
