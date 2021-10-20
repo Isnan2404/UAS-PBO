@@ -422,6 +422,8 @@ public class Interface extends javax.swing.JFrame {
             int hasil=0;
             hasil = getbayar-sthdisc;
             if(hasil>0){
+                
+                
                 uangakhir.setText(""+hasil);
             }else{
                 uangakhir.setText("0");
